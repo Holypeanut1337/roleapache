@@ -1,15 +1,22 @@
 galaxy_info:
-  author: "Stefan.B"
-  description: "Ansible role to install Apache,""
-  company: "Windesheim"
-  license: "MIT"
+  role_name: apache
+  author: s1201259
+  description: Configure webservers
+  license: MIT
   min_ansible_version: "2.9"
+
   platforms:
     - name: Ubuntu
       versions:
-        - "20.04"
-        - "22.04"
+        - all
+    - name: Debian
+      versions:
+        - all
+
   galaxy_tags:
     - web
     - apache
+    - httpd
+    - linux
+
 dependencies: []
